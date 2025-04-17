@@ -99,6 +99,12 @@ void loop()
 
         if (bpm > 0 && spo2 > 0) {
             glucose_level = 16714.61 + 0.47 * bpm - 351.045 * spo2 + 1.85 * (spo2 * spo2);
+
+            
+
+
+
+            
         }
 
         Serial.print("Heart rate: ");
